@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main">
+        <form class="form">
+          <fieldset>
+            <legend>Database MySQL management</legend>
+            <p>
+              <label for="id">ID</label>
+              <input type="number" id="id" min="1" max="999" />
+            </p>
+            <p>
+              <label for="id">Name</label>
+              <input type="text" id="name" />
+            </p>
+          </fieldset>
+        </form>
+        <div class="content"></div>
+        <button class="show__button">Show users</button>
+        <button class="add__button">Add user</button>
+        <button class="delete__button">Delete user</button>
+      </div>
+    </div>
+    <script src="./result.js"></script>
+  </body>
+</html>
